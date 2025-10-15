@@ -274,6 +274,49 @@ h1, h2, h3, h4, h5, h6 {
 .founder .founder-image img{
     width: 100%;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .founder{
+        padding: 4.5rem 7% 3.5rem 7%;
+    }
+    .founder .founder-content h2{
+        font-size: calc(3rem + 0.5vw);
+    }
+    .founder .founder-content span{
+        font-size: calc(0.65rem + 0.5vw);
+    }
+    .founder .founder-content .summary span{
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .founder .founder-content .summary p{
+        font-size: calc(0.55rem + 0.5vw);
+        margin-top: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .founder{
+        padding: 4rem 7% 3rem 7%;
+    }
+    .founder .founder-content h2{
+        font-size: calc(2.7rem + 0.5vw);
+    }
+    .founder .founder-content span{
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    .founder .founder-content .line{
+        width: 83%;
+        height: 2.5px;
+    }
+    .founder .founder-content .summary span{
+        font-size: calc(0.8rem + 0.5vw);
+    }
+    .founder .founder-content .summary p{
+        font-size: calc(0.5rem + 0.5vw);
+        margin-top: 1.3rem;
+    }
+}
 /* Founder End */
 
 /* About Founder Start */
