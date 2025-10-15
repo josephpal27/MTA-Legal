@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Navbar Start */
 .navbar{
     background: transparent;
-    padding: 2rem 5% 2rem 5%;
+    padding: 2rem 7% 2rem 7%;
     position: absolute;
     width: 100%;
     align-items: center;
@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
     .navbar{
-        padding: 1.8rem 5% 0 5%;
+        padding: 1.8rem 7% 0 7%;
     }
     .navbar .navbar-brand img{
         width: 120px;
@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
     .navbar{
-        padding: 1.6rem 5% 0 5%;
+        padding: 1.6rem 7% 0 7%;
     }
     .navbar .navbar-brand img{
         width: 105px;
@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 5%;
+    padding: 0 7%;
     color: #fff;
 }
 .banner .banner-content h1{
@@ -182,3 +182,54 @@ h1, h2, h3, h4, h5, h6 {
     scale: 0.95;
 }
 /* Banner End */
+
+/* Founder Start */
+.founder{
+    padding: 5rem 7%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.founder .founder-content{
+    width: 50%;
+}
+.founder .founder-content h2{
+    font-size: calc(3rem + 0.5vw);
+    color: #000;
+}
+.founder .founder-content span{
+    display: block;
+    font-size: calc(0.7rem + 0.5vw);
+    font-family: Sharp-Grotesk-Book-20, sans-serif;
+    font-weight: 600;
+    color: #000;
+}
+.founder .founder-content .line{
+    width: 80%;
+    height: 3px;
+    background-color: #000;
+    margin: 2rem 0;
+    position: relative;
+    left: -10rem;
+    border-radius: 10px;
+}
+.founder .founder-content .summary span{
+    display: block;
+    font-size: calc(1rem + 0.5vw);
+    font-family: Sharp-Grotesk-Book-20, sans-serif;
+    font-weight: 700;
+    color: #000;
+}
+.founder .founder-content .summary p{
+    font-size: calc(0.6rem + 0.5vw);
+    margin-top: 1.5rem;
+    font-family: Sharp-Grotesk-Book-20, sans-serif;
+    color: #000;
+}
+.founder .founder-image{
+    width: 40%;
+}
+.founder .founder-image img{
+    width: 100%;
+}
+/* Founder End */
