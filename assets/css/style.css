@@ -326,3 +326,38 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 }
 /* About Us End */
+
+/* Why Choose Us Start */
+.why-choose-us{
+    padding: 5rem 7%;
+}
+.why-choose-us h5{
+    font-size: calc(3rem + 0.5vw);
+    color: #000;
+    text-align: center;
+}
+.why-choose-us-cards-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.why-choose-us-cards-row .why-choose-us-card{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.why-choose-us-cards-row .why-choose-us-card img{
+    width: 90px;
+    height: 140px;
+    object-fit: contain;
+}
+.why-choose-us-cards-row .why-choose-us-card p{
+    font-family: Sharp-Grotesk-Book-20, sans-serif;
+    font-size: calc(0.8rem + 0.5vw);
+    color: #000;
+    margin-top: 0.2rem;
+    text-align: center;
+}
+/* Why Choose Us End */
