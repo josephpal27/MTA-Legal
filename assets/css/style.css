@@ -329,7 +329,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Why Choose Us Start */
 .why-choose-us{
-    padding: 5rem 7%;
+    padding: 5rem 7% 4rem 7%;
 }
 .why-choose-us h5{
     font-size: calc(3rem + 0.5vw);
@@ -361,3 +361,64 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 /* Why Choose Us End */
+
+/* Experience Start */
+.experience{
+    padding: 0 7%;
+}
+.experience h6{
+    font-size: calc(3rem + 0.5vw);
+    color: #000;
+    text-align: center;
+}
+.experience p{
+    font-size: calc(0.6rem + 0.5vw);
+    font-family: Sharp-Grotesk-Book-20, sans-serif;
+    color: #000;
+    font-weight: 500;
+    text-align: center;
+    width: 80%;
+    margin: 1.5rem auto;
+}
+.experience .experience-cards-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+.experience .experience-cards-row .experience-card{
+    width: 45%;
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+    position: relative;
+}
+.experience .experience-cards-row .experience-card span{
+    display: block;
+    font-family: Elikora, sans-serif;
+    font-size: calc(1.2rem + 0.5vw);
+    color: #000;
+}
+.experience .experience-cards-row .experience-card p{
+    font-size: calc(0.6rem + 0.5vw);
+    font-family: Sharp-Grotesk-Book-20, sans-serif;
+    color: #000;
+    text-align: left;
+    width: 70%;
+    margin: 1rem auto 0 0;
+}
+.experience .experience-cards-row .experience-card img{
+    width: 60px;
+    background-color: #000;
+    padding: 1rem 1.5rem 1rem 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: all 0.2s ease;
+}
+.experience .experience-cards-row .experience-card img:hover{
+    background-color: #f2c663;
+}
+.experience .experience-cards-row .experience-card img:active{
+    scale: 0.95;
+}
+/* Experience End */
