@@ -629,6 +629,59 @@ h1, h2, h3, h4, h5, h6 {
 .experience .experience-cards-row .experience-card img:active{
     scale: 0.95;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .experience h6{
+        font-size: calc(2.7rem + 0.5vw);
+    }
+    .experience p{
+        font-size: calc(0.55rem + 0.5vw);
+        margin: 1.4rem auto;
+    }
+    .experience .experience-cards-row{
+        margin-top: 3.5rem;
+    }
+    .experience .experience-cards-row .experience-card span{
+        font-size: calc(1.1rem + 0.5vw);
+    }
+    .experience .experience-cards-row .experience-card p{
+        font-size: calc(0.55rem + 0.5vw);
+        margin: 0.9rem auto 0 0;
+    }
+    .experience .experience-cards-row .experience-card img{
+        width: 55px;
+        padding: 1rem 1.3rem 1rem 0;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .experience h6{
+        font-size: calc(2.5rem + 0.5vw);
+    }
+    .experience p{
+        font-size: calc(0.5rem + 0.5vw);
+        margin: 1.3rem auto;
+    }
+    .experience .experience-cards-row{
+        margin-top: 3rem;
+    }
+    .experience .experience-cards-row .experience-card{
+        padding-bottom: 2rem;
+        margin-bottom: 3rem;
+    }
+    .experience .experience-cards-row .experience-card span{
+        font-size: calc(0.95rem + 0.5vw);
+    }
+    .experience .experience-cards-row .experience-card p{
+        font-size: calc(0.5rem + 0.5vw);
+        margin: 0.8rem auto 0 0;
+    }
+    .experience .experience-cards-row .experience-card img{
+        width: 50px;
+        padding: 0.8rem 1.2rem 0.8rem 0;
+    }
+}
 /* Experience End */
 
 /* Events Start */
