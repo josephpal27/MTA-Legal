@@ -352,6 +352,35 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     margin-top: 1rem;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .about-founder .founder-card img{
+        width: 80px;
+        height: 130px;
+    }
+    .about-founder .founder-card span{
+        font-size: calc(1.6rem + 0.5vw);
+    }
+    .about-founder .founder-card p{
+        font-size: calc(0.55rem + 0.5vw);
+        margin-top: 0.9rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .about-founder .founder-card img{
+        width: 70px;
+        height: 120px;
+    }
+    .about-founder .founder-card span{
+        font-size: calc(1.4rem + 0.5vw);
+    }
+    .about-founder .founder-card p{
+        font-size: calc(0.5rem + 0.5vw);
+        margin-top: 0.8rem;
+    }
+}
 /* About Founder End */
 
 /* About Us Start */
