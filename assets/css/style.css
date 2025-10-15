@@ -268,3 +268,61 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 1rem;
 }
 /* About Founder End */
+
+/* About Us Start */
+.about-us{
+    padding: 4rem 0 0 0;
+}
+.about-us h3{
+    font-size: calc(3.5rem + 0.5vw);
+    color: #000;
+    text-align: center;
+}
+.about-us .about-content{
+    margin-top: 3.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-us .about-content .about-box{
+    width: 50%;
+    background-color: #f2c663;
+}
+.about-us .about-content .about-text-box{
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-us .about-content .about-text-box h4{
+    font-size: calc(3rem + 0.5vw);
+    color: #000;
+}
+.about-us .about-content .about-text-box p{
+    font-family: Sharp-Grotesk-Book-20, sans-serif;
+    font-size: calc(0.6rem + 0.5vw);
+    color: #000;
+    margin-top: 1.5rem;
+    width: 80%;
+}
+.about-us .about-content .about-text-box button{
+    font-size: calc(0.8rem + 0.5vw);
+    font-family: Elikora, sans-serif;
+    margin-top: 2rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 0.8rem 2.5rem;
+    transition: all 0.2s ease;
+}
+.about-us .about-content .about-text-box button:hover{
+    background-color: #fff;
+    color: #000;
+}
+.about-us .about-content .about-text-box button:active{
+    scale: 0.95;
+}
+.about-us .about-content .about-box img{
+    width: 100%;
+}
+/* About Us End */
