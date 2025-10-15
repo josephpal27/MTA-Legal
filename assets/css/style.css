@@ -528,6 +528,46 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0.2rem;
     text-align: center;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .why-choose-us{
+        padding: 4.5rem 7% 3.5rem 7%;
+    }
+    .why-choose-us h5{
+        font-size: calc(2.5rem + 0.5vw);
+    }
+    .why-choose-us-cards-row{
+        margin-top: 1.7rem;
+    }
+    .why-choose-us-cards-row .why-choose-us-card img{
+        width: 80px;
+        height: 130px;
+    }
+    .why-choose-us-cards-row .why-choose-us-card p{
+        font-size: calc(0.75rem + 0.5vw);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .why-choose-us{
+        padding: 4rem 7% 3rem 7%;
+    }
+    .why-choose-us h5{
+        font-size: calc(2.2rem + 0.5vw);
+    }
+    .why-choose-us-cards-row{
+        margin-top: 1.5rem;
+    }
+    .why-choose-us-cards-row .why-choose-us-card img{
+        width: 70px;
+        height: 120px;
+    }
+    .why-choose-us-cards-row .why-choose-us-card p{
+        font-size: calc(0.7rem + 0.5vw);
+        margin-top: 0.1rem;
+    }
+}
 /* Why Choose Us End */
 
 /* Experience Start */
