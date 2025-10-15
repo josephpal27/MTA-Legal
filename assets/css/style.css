@@ -47,10 +47,10 @@ h1, h2, h3, h4, h5, h6 {
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
     .navbar{
-        padding: 1.8rem 7% 0 7%;
+        padding: 1.8rem 7% 1.8rem 7%;
     }
     .navbar .navbar-brand img{
-        width: 120px;
+        width: 165px;
     }
     .navbar .nav-link{
         font-size: calc(0.6rem + 0.5vw);
@@ -61,15 +61,15 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
     .navbar{
-        padding: 1.6rem 7% 0 7%;
+        padding: 1.5rem 7% 1.5rem 7%;
     }
     .navbar .navbar-brand img{
-        width: 105px;
+        width: 150px;
     }
     .navbar .nav-link{
         font-size: calc(0.55rem + 0.5vw);
         padding: 0.5rem 0.5rem !important;
-        margin-left: 3rem;
+        margin-left: 2.8rem;
     }
 }
 
