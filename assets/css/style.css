@@ -487,3 +487,77 @@ h1, h2, h3, h4, h5, h6 {
     scale: 0.95;
 }
 /* Events End */
+
+/* Footer Start */
+footer{
+    background-color: #f2c663;
+}
+.footer-content{
+    padding: 5rem 7% 2rem 7%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #000;
+}
+.footer-content .foot-box:nth-child(1),
+.footer-content .foot-box:nth-child(4){
+    width: 30%;
+}
+.footer-content .foot-box:nth-child(2),
+.footer-content .foot-box:nth-child(3){
+    width: 18%;
+}
+.footer-content .foot-box:nth-child(1){
+    padding-right: 3rem;
+}
+.footer-content .foot-box .foot-logo img{
+    width: 200px;
+    background-color: #fff;
+    padding: 1rem 1.5rem;
+    border-radius: 15px;
+    margin-bottom: 3rem;
+}
+.footer-content .foot-box p{
+    color: #000;
+    font-size: calc(0.6rem + 0.5vw);
+    font-family: Sharp-Grotesk-Book-20, sans-serif;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0;
+}
+.footer-content .foot-box span{
+    color: #000;
+    font-size: calc(1rem + 0.5vw);
+    font-family: Sharp-Grotesk-Book-20, sans-serif;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    display: block;
+}
+.footer-content .foot-box a{
+    color: #000;
+    font-size: calc(0.6rem + 0.5vw);
+    font-family: Sharp-Grotesk-Book-20, sans-serif;
+    display: block;
+    text-decoration: none;
+    font-weight: 550;
+    margin-bottom: 1rem;
+}
+.footer-content .foot-box a:hover{
+    text-decoration: underline;
+}
+.footer-content .foot-box p i{
+    color: #000;
+    font-size: calc(1rem + 0.5vw);
+    margin-top: 2px;
+}
+.footer-copyright{
+    padding: 1.5rem 0;
+}
+.footer-copyright p{
+    margin: 0;
+    text-align: center;
+    font-size: calc(0.55rem + 0.5vw);
+    font-family: Sharp-Grotesk-Book-20, sans-serif;
+    color: #000;
+}
+/* Footer End */
