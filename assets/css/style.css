@@ -256,6 +256,12 @@ h1, h2, h3, h4, h5, h6 {
         padding: 0.5rem 1.3rem;
     }
 }
+
+@media screen and (min-width: 410px) and (max-width: 768px) {
+    .banner .banner-layer{
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.492) 10%, rgba(0, 0, 0, 0) 60%);
+    }
+}
 /* Banner End */
 
 /* Founder Start */
@@ -353,7 +359,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (max-width: 768px) {
     .founder{
-        padding: 2rem 1rem 2rem 1rem;
+        padding: 2rem 1rem 0 1rem;
         flex-direction: column-reverse;
     }
     .founder .founder-content{
@@ -445,6 +451,29 @@ h1, h2, h3, h4, h5, h6 {
     }
     .about-founder .founder-card p{
         font-size: calc(0.5rem + 0.5vw);
+        margin-top: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-founder{
+        padding: 0 1rem;
+    }
+    .about-founder .founder-card{
+        width: 100%;
+    }
+    .about-founder .founder-card img{
+        width: 80px;
+        height: 120px;
+    }
+    .about-founder .founder-card span{
+        font-size: calc(1.5rem + 0.5vw);
+    }
+    .about-founder .founder-card span br{
+        display: none;
+    }
+    .about-founder .founder-card p{
+        font-size: calc(0.8rem + 0.5vw);
         margin-top: 0.8rem;
     }
 }
