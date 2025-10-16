@@ -817,6 +817,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Footer Start */
 footer{
     background-color: #f2c663;
+    overflow: hidden;
 }
 .footer-content{
     padding: 5rem 7% 2rem 7%;
@@ -1011,6 +1012,32 @@ footer{
     #agreeModal .modal-footer button{
         font-size: calc(0.45rem + 0.5vw);
         padding: 0.47rem 1.2rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #agreeModal .modal-dialog{
+        max-width: 100%;
+    }
+    #agreeModal .modal-header{
+        padding: 0.7rem 0;
+    }
+    #agreeModal .modal-title{
+        font-size: calc(1rem + 0.5vw);
+    }   
+    #agreeModal .modal-body p{
+        font-size: calc(0.62rem + 0.5vw);
+        margin-bottom: 0.6rem;
+    }
+    #agreeModal .modal-body p:last-child{
+        margin-bottom: 0;
+    }
+    #agreeModal .modal-footer{
+        padding: 0.6rem 0.7rem;
+    }
+    #agreeModal .modal-footer button{
+        font-size: calc(0.7rem + 0.5vw);
+        padding: 0.5rem 1.2rem;
     }
 }
 /* Disclaimer Modal End */
