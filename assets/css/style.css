@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     #mobileMenu .navbar-brand img{
         width: 150px;
-        background-color: #fff;
+        background-color: #172a54;
         padding: 1rem 1rem;
         border-radius: 10px;
     }
@@ -495,7 +495,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .about-us .about-content .about-box{
     width: 50%;
-    background-color: #f2c663;
+    background-color: #ecc05b;
+}
+.about-us .about-content-bottom .about-box{
+    background-color: #172a54;
+    color: #fff;
 }
 .about-us .about-content .about-text-box{
     padding: 6rem;
@@ -528,6 +532,14 @@ h1, h2, h3, h4, h5, h6 {
 .about-us .about-content .about-text-box button:hover{
     background-color: #fff;
     color: #000;
+}
+.about-us .about-content-bottom .about-text-box button{
+    background-color: #fff;
+    color: #000;
+}
+.about-us .about-content-bottom .about-text-box button:hover{
+    background-color: #f2c663;
+    color: #fff;
 }
 .about-us .about-content .about-text-box button:active{
     scale: 0.95;
@@ -1055,7 +1067,7 @@ footer{
 }
 .footer-content .foot-box .foot-logo img{
     width: 200px;
-    background-color: #fff;
+    background-color: #172a54;
     padding: 1rem 1.5rem;
     border-radius: 15px;
     margin-bottom: 3rem;
@@ -1115,7 +1127,7 @@ footer{
     }
     .footer-content .foot-box .foot-logo img{
         width: 180px;
-        padding: 0.9rem 1.4rem;
+        padding: 0.95rem 1.4rem;
         margin-bottom: 2.8rem;
     }
     .footer-content .foot-box p{
