@@ -467,7 +467,7 @@ h1, h2, h3, h4, h5, h6 {
         height: 120px;
     }
     .about-founder .founder-card span{
-        font-size: calc(1.5rem + 0.5vw);
+        font-size: calc(1.3rem + 0.5vw);
     }
     .about-founder .founder-card span br{
         display: none;
@@ -487,9 +487,9 @@ h1, h2, h3, h4, h5, h6 {
     font-size: calc(3.5rem + 0.5vw);
     color: #000;
     text-align: center;
+    margin-bottom: 3.5rem;
 }
 .about-us .about-content{
-    margin-top: 3.5rem;
     display: flex;
     flex-wrap: wrap;
 }
@@ -543,9 +543,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     .about-us h3{
         font-size: calc(3rem + 0.5vw);
-    }
-    .about-us .about-content{
-        margin-top: 3.2rem;
+        margin-bottom: 3.2rem;
     }
     .about-us .about-content .about-text-box{
         padding: 5.5rem;
@@ -570,9 +568,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     .about-us h3{
         font-size: calc(2.7rem + 0.5vw);
-    }
-    .about-us .about-content{
-        margin-top: 2.8rem;
+        margin-bottom: 2.8rem;
     }
     .about-us .about-content .about-text-box{
         padding: 5rem;
@@ -587,6 +583,38 @@ h1, h2, h3, h4, h5, h6 {
     .about-us .about-content .about-text-box button{
         font-size: calc(0.7rem + 0.5vw);
         margin-top: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-us{
+        padding: 2rem 0 0 0;
+    }
+    .about-us h3{
+        font-size: calc(2rem + 0.5vw);
+        margin-bottom: 2rem;
+    }
+    .about-us .about-content-top{
+        flex-direction: column-reverse;
+    }
+    .about-us .about-content .about-box{
+        width: 100%;
+    }
+    .about-us .about-content .about-text-box{
+        padding: 1.5rem 1rem 1.7rem 1rem;
+    }
+    .about-us .about-content .about-text-box h4{
+        font-size: calc(1.8rem + 0.5vw);
+    }
+    .about-us .about-content .about-text-box p{
+        font-size: calc(0.8rem + 0.5vw);
+        margin-top: 0.5rem;
+        width: 100%;
+    }
+    .about-us .about-content .about-text-box button{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 0.5rem;
+        padding: 0.5rem 1.5rem;
     }
 }
 /* About Us End */
