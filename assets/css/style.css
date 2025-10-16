@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
         border-bottom: 2px solid #fff;
     }
 
-    .navbar.sticky-nav {
+    /* .navbar.sticky-nav {
         position: fixed;
         top: 0;
         left: 0;
@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     .navbar.sticky-nav .navbar-toggler .navbar-toggler-icon {
         filter: brightness(0) invert(1);
-    }
+    } */
 }
 /* Navbar End */
 
@@ -224,6 +224,36 @@ h1, h2, h3, h4, h5, h6 {
         font-size: calc(0.68rem + 0.5vw);
         margin-top: 0.7rem;
         padding: 0.65rem 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner{
+        height: auto;
+    }
+    .banner .banner-layer{
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.492) 10%, rgba(0, 0, 0, 0) 52%);
+    }
+    .banner .banner-content{
+        padding: 0 1rem;
+        position: relative;
+    }
+    .banner .banner-content h1{
+        font-size: calc(1.8rem + 0.5vw);
+        margin-top: -5.3rem;
+    }
+    .banner .banner-content p{
+        font-size: calc(0.8rem + 0.5vw);
+        width: 100%;
+        margin-top: 1rem;
+        color: #000;
+    }
+    .banner .banner-content button{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 0.2rem;
+        background-color: #000;
+        color: #fff;
+        padding: 0.5rem 1.3rem;
     }
 }
 /* Banner End */
