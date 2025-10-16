@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
         padding: 1rem 1rem;
     }
     .navbar .navbar-brand img{
-        width: 65px;
+        width: 110px;
     }
     .navbar-toggler{
         border: none;
@@ -94,10 +94,13 @@ h1, h2, h3, h4, h5, h6 {
     }
     #mobileMenu{
         width: 75%;
-        background-color: #83633c;
+        background-color: #f2c663;
     }
     #mobileMenu .navbar-brand img{
-        width: 90px;
+        width: 150px;
+        background-color: #fff;
+        padding: 1rem 1rem;
+        border-radius: 10px;
     }
     #mobileMenu .nav-link{
         color: #fff;
