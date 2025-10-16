@@ -997,7 +997,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (max-width: 768px) {
     .events{
-        padding: 2.5rem 1rem;
+        padding: 2.5rem 1rem 2rem 1rem;
     }
     .events h6{
         font-size: calc(1.8rem + 0.5vw);
@@ -1174,6 +1174,55 @@ footer{
     }
     .footer-copyright p{
         font-size: calc(0.45rem + 0.5vw);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-content{
+        padding: 1.5rem 1rem 0 1rem;
+    }
+    .footer-content .foot-box:nth-child(1),
+    .footer-content .foot-box:nth-child(4){
+        width: 100%;
+    }
+    .footer-content .foot-box:nth-child(2),
+    .footer-content .foot-box:nth-child(3){
+        width: 100%;
+    }
+    .footer-content .foot-box:nth-child(1){
+        padding-right: 0;
+    }
+    .footer-content .foot-box{
+        margin-bottom: 0.8rem;
+    }
+    .footer-content .foot-box:first-child{
+        margin-bottom: 1.5rem;
+    }
+    .footer-content .foot-box .foot-logo img{
+        width: 170px;
+        padding: 1rem 1.2rem;
+        margin-bottom: 1.2rem;
+    }
+    .footer-content .foot-box p{
+        font-size: calc(0.8rem + 0.5vw);
+        gap: 0.7rem;
+    }
+    .footer-content .foot-box span{
+        font-size: calc(1rem + 0.5vw);
+        margin-bottom: 1rem;
+    }
+    .footer-content .foot-box a{
+        font-size: calc(0.8rem + 0.5vw);
+        margin-bottom: 0.8rem;
+    }
+    .footer-content .foot-box p i{
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .footer-copyright{
+        padding: 1rem 0;
+    }
+    .footer-copyright p{
+        font-size: calc(0.65rem + 0.5vw);
     }
 }
 /* Footer End */
