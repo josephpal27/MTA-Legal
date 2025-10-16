@@ -830,6 +830,40 @@ h1, h2, h3, h4, h5, h6 {
         padding: 0.8rem 1.2rem 0.8rem 0;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .experience{
+        padding: 0 1rem;
+    }
+    .experience h6{
+        font-size: calc(1.9rem + 0.5vw);
+    }
+    .experience p{
+        font-size: calc(0.8rem + 0.5vw);
+        width: 100%;
+        margin: 1rem auto;
+    }
+    .experience .experience-cards-row{
+        margin-top: 2rem;
+    }
+    .experience .experience-cards-row .experience-card{
+        width: 100%;
+        padding-bottom: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .experience .experience-cards-row .experience-card span{
+        font-size: calc(1rem + 0.5vw);
+    }
+    .experience .experience-cards-row .experience-card p{
+        font-size: calc(0.7rem + 0.5vw);
+        width: 85%;
+        margin: 0.7rem auto 0 0;
+    }
+    .experience .experience-cards-row .experience-card img{
+        width: 37px;
+        padding: 0.7rem 1rem 0.7rem 0;
+    }
+}
 /* Experience End */
 
 /* Events Start */
