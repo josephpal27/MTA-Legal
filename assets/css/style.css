@@ -692,6 +692,30 @@ h1, h2, h3, h4, h5, h6 {
         margin-top: 0.1rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .why-choose-us{
+        padding: 2rem 1rem 1rem 1rem;
+    }
+    .why-choose-us h5{
+        font-size: calc(1.8rem + 0.5vw);
+    }
+    .why-choose-us-cards-row{
+        margin-top: 1.3rem;
+    }
+    .why-choose-us-cards-row .why-choose-us-card{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .why-choose-us-cards-row .why-choose-us-card img{
+        width: 80px;
+        height: 120px;
+    }
+    .why-choose-us-cards-row .why-choose-us-card p{
+        font-size: calc(1rem + 0.5vw);
+        margin-top: 0.1rem;
+    }
+}
 /* Why Choose Us End */
 
 /* Experience Start */
