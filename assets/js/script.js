@@ -31,3 +31,31 @@ window.addEventListener('load', function() {
 // window.addEventListener('load', function () { var agreeModal = new bootstrap.Modal(document.getElementById('agreeModal')); agreeModal.show(); document.getElementById('agreeBtn').addEventListener('click', function() { agreeModal.hide(); }); });
 
 // --------------------------------------------------------------------------------------------------
+
+// Functionality For Experience Modal
+document.addEventListener("DOMContentLoaded", function () {
+  const experienceCards = document.querySelectorAll(".experience-card");
+
+  experienceCards.forEach((card) => {
+    const button = card.querySelector("a img"); // arrow image
+    const title = card.querySelector("span").innerText;
+    const ul = card.querySelector("ul"); // get the ul element
+
+    button.addEventListener("click", function (e) {
+      e.preventDefault();
+
+      // Set modal title
+      document.getElementById("expTitle").innerText = title;
+
+      // Set modal description with proper <ul><li> HTML
+      const modalBody = document.getElementById("expDescription");
+      modalBody.innerHTML = ul ? `<ul>${ul.innerHTML}</ul>` : "<p>No details available.</p>";
+
+      // Show modal
+      const modal = new bootstrap.Modal(document.getElementById("experienceModal"));
+      modal.show();
+    });
+  });
+});
+
+// --------------------------------------------------------------------------------------------------
