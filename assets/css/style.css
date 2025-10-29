@@ -94,11 +94,11 @@ h1, h2, h3, h4, h5, h6 {
     }
     #mobileMenu{
         width: 75%;
-        background-color: #f2c663;
+        background-color: #e3b037;
     }
     #mobileMenu .navbar-brand img{
         width: 150px;
-        background-color: #172a54;
+        background-color: #000;
         padding: 1rem 1rem;
         border-radius: 10px;
     }
