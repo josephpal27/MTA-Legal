@@ -59,3 +59,29 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // --------------------------------------------------------------------------------------------------
+
+// Functionality for OffCanvas Close on link click
+document.addEventListener("DOMContentLoaded", function () {
+
+  const offcanvasLinks = document.querySelectorAll(".offcanvas a[href^='#']");
+  const offcanvasElement = document.querySelector(".offcanvas");
+
+  offcanvasLinks.forEach((link) => {
+    link.addEventListener("click", function () {
+
+      const bsOffcanvas = bootstrap.Offcanvas.getInstance(offcanvasElement);
+      if (bsOffcanvas) {
+        bsOffcanvas.hide();
+      }
+
+      const targetId = this.getAttribute("href").substring(1);
+      const target = document.getElementById(targetId);
+      if (target) {
+        setTimeout(() => {
+          target.scrollIntoView({ behavior: "smooth" });
+        }, 400);
+      }
+    });
+  });
+});
+// --------------------------------------------------------------------------------------------------

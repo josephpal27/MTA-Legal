@@ -707,7 +707,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (max-width: 768px) {
     .why-choose-us{
-        padding: 2rem 1rem 1rem 1rem;
+        padding: 2rem 1rem 0 1rem;
     }
     .why-choose-us h5{
         font-size: calc(1.8rem + 0.5vw);
@@ -854,7 +854,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (max-width: 768px) {
     .experience{
-        padding: 0 1rem;
+        padding: 1rem 1rem 0 1rem;
     }
     .experience h6{
         font-size: calc(1.9rem + 0.5vw);
