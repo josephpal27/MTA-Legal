@@ -633,7 +633,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Why Choose Us Start */
 .why-choose-us{
-    padding: 5rem 7% 4rem 7%;
+    padding: 5rem 7% 1rem 7%;
 }
 .why-choose-us h5{
     font-size: calc(3rem + 0.5vw);
@@ -668,7 +668,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
     .why-choose-us{
-        padding: 4.5rem 7% 3.5rem 7%;
+        padding: 4.5rem 7% 0.8rem 7%;
     }
     .why-choose-us h5{
         font-size: calc(2.5rem + 0.5vw);
@@ -687,7 +687,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
     .why-choose-us{
-        padding: 4rem 7% 3rem 7%;
+        padding: 4rem 7% 1rem 7%;
     }
     .why-choose-us h5{
         font-size: calc(2.2rem + 0.5vw);
@@ -732,7 +732,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Experience Start */
 .experience{
-    padding: 0 7%;
+    padding: 3rem 7% 0 7%;
 }
 .experience h6{
     font-size: calc(3rem + 0.5vw);
@@ -795,6 +795,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .experience{
+        padding: 2.5rem 7% 0 7%;
+    }
     .experience h6{
         font-size: calc(2.7rem + 0.5vw);
     }
@@ -819,6 +822,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
+    .experience{
+        padding: 2rem 7% 0 7%;
+    }
     .experience h6{
         font-size: calc(2.5rem + 0.5vw);
     }
