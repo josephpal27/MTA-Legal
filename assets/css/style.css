@@ -1070,7 +1070,8 @@ footer{
 }
 .footer-content .foot-box .foot-logo img{
     width: 200px;
-    background-color: #172a54;
+    /* background-color: #172a54; */
+    background-color: #000;
     padding: 1rem 1.5rem;
     border-radius: 15px;
     margin-bottom: 3rem;
