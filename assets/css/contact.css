@@ -1,0 +1,21 @@
+.banner{
+    height: 110vh;
+}
+.banner .banner-content{
+    align-items: center;
+}
+.banner .banner-content h1{
+    font-size: calc(3.5rem + 0.5vw);
+    margin-top: 4rem;
+}
+.banner .banner-content p{
+    width: 50%;
+    text-align: center;
+}
+.banner .banner-content .line{
+    width: 90px;
+    height: 8px;
+    background-color: #f2c663;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
