@@ -144,6 +144,33 @@
         font-size: calc(0.42rem + 0.5vw);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .contact-cards-row{
+        padding: 2rem 1rem;
+    }
+    .contact-cards-row .contact-card{
+        width: 100%;
+        padding: 1.5rem 1rem 0.5rem 1rem;
+        margin-bottom: 1.2rem;
+    }
+    .contact-cards-row .contact-card img{
+        width: 25%;
+    }
+    .contact-cards-row .contact-card span{
+        font-size: calc(1.1rem + 0.5vw);
+        margin-top: 1.3rem;
+    }
+    .contact-cards-row .contact-card .desc{
+        margin-top: 0.5rem;
+    }
+    .contact-cards-row .contact-card p{
+        font-size: calc(0.68rem + 0.5vw);
+    }
+    .contact-cards-row .contact-card p br{
+        display: none;
+    }
+}
 /* Contact Cards Row End */
 
 /* Contact Form Start */
