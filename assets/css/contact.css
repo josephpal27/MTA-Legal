@@ -368,4 +368,11 @@
         margin-bottom: 3rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .map{
+        height: 40vh;
+        margin-bottom: 1rem;
+    }
+}
 /* Map End */
