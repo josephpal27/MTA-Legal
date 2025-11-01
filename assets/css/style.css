@@ -1417,4 +1417,33 @@ footer{
         margin-bottom: 0.4rem;
     }
 }
+
+@media screen and (max-width: 991px) {
+    #experienceModal .modal-dialog{
+        max-width: 100%;
+    }
+    #experienceModal .btn-close {
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+    #experienceModal .btn-close i {
+        font-size: 1.2rem;
+    }
+    #experienceModal .modal-header {
+        padding: 1rem 1rem 0 0;
+    }
+    #experienceModal .modal-header span {
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    #experienceModal .modal-body{
+        padding: 1rem 0 0 0;
+    }
+    #experienceModal .modal-body ul{
+        padding-left: 1rem;
+    }
+    #experienceModal .modal-body ul li {
+        font-size: calc(0.65rem + 0.5vw);
+        margin-bottom: 0.4rem;
+    }
+}
 /* Experience Modal End */
