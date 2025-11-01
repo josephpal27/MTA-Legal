@@ -91,6 +91,7 @@
     }
     .contact-cards-row .contact-card{
         padding: 2.8rem;
+        box-shadow: #f2c663 0px 10px 23px -5px, #f2c663 0px 8px 14px -8px;
     }
     .contact-cards-row .contact-card span{
         font-size: calc(0.9rem + 0.5vw);
@@ -110,6 +111,7 @@
     }
     .contact-cards-row .contact-card{
         padding: 2.5rem;
+        box-shadow: #f2c663 0px 10px 23px -5px, #f2c663 0px 8px 14px -8px;
     }
     .contact-cards-row .contact-card span{
         font-size: calc(0.8rem + 0.5vw);
