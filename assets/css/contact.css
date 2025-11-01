@@ -235,7 +235,7 @@
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
     .contact-form{
-        padding: 0 7% 6rem 7%;
+        padding: 0 7% 5.5rem 7%;
     }
     .contact-form h2{
         font-size: calc(2.7rem + 0.5vw);
@@ -275,10 +275,14 @@
 
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
-    
+    .map{
+        margin-bottom: 3.5rem;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
-    
+    .map{
+        margin-bottom: 3rem;
+    }
 }
 /* Map End */
