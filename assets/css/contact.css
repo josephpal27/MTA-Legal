@@ -44,6 +44,26 @@
         margin-top: 0.7rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .banner{
+        height: auto;
+    }
+    .banner .banner-content h1{
+        font-size: calc(2rem + 0.5vw);
+        margin-top: -4.5rem;
+    }
+    .banner .banner-content p{
+        margin-top: 3.3rem;
+        width: 100%;
+        font-size: calc(0.78rem + 0.5vw);
+    }
+    .banner .banner-content .line{
+        width: 55px;
+        height: 5px;
+        margin-top: 0.5rem;
+    }
+}
 /* Banner End */
 
 /* Contact Cards Row Start */
