@@ -1051,6 +1051,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* Events End */
 
+/* Insights Start  */  /* (Syles are appling from Events Section as Want Exact Same Structure) */
+.insights{
+    padding: 0 7% 4rem 7%;
+}
+/* Insights End */
+
 /* Footer Start */
 footer{
     background-color: #f2c663;
