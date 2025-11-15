@@ -1364,12 +1364,16 @@ footer{
     top: 1.1rem;
     right: 1.1rem;
     box-shadow: none;
+    transition: all 0.2s ease;
 }
 #experienceModal .btn-close::before {
     content: none;
 }
 #experienceModal .btn-close i {
     font-size: 1.8rem;
+}
+#experienceModal .btn-close:hover{
+    background-color: rgb(154, 0, 0) !important;
 }
 #experienceModal .modal-header span {
     font-size: calc(1rem + 0.5vw);
