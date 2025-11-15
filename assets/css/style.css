@@ -757,7 +757,7 @@ h1, h2, h3, h4, h5, h6 {
 .experience .experience-cards-row .experience-card{
     width: 45%;
     padding-bottom: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
     position: relative;
 }
 .experience .experience-cards-row .experience-card span{
@@ -837,7 +837,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     .experience .experience-cards-row .experience-card{
         padding-bottom: 2rem;
-        margin-bottom: 3rem;
+        margin-bottom: 4rem;
     }
     .experience .experience-cards-row .experience-card span{
         font-size: calc(0.95rem + 0.5vw);
@@ -870,7 +870,7 @@ h1, h2, h3, h4, h5, h6 {
     .experience .experience-cards-row .experience-card{
         width: 100%;
         padding-bottom: 1.5rem;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
     }
     .experience .experience-cards-row .experience-card span{
         font-size: calc(1rem + 0.5vw);
@@ -889,7 +889,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Events Start */
 .events{
-    padding: 4rem 7%;
+    padding: 3rem 7% 4rem 7%;
 }
 .events h6{
     font-size: calc(3rem + 0.5vw);
