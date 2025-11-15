@@ -1377,12 +1377,19 @@ footer{
     font-family: Elikora, sans-serif;
     text-align: left;
 }
-#experienceModal .modal-body ul li {
+#experienceModal .modal-body ul li,
+#experienceModal .modal-body p,
+#experienceModal .modal-body a {
     font-size: calc(0.45rem + 0.5vw);
     font-family: Sharp-Grotesk-Book-20, sans-serif;
     color: #000;
     text-align: left;
     margin-bottom: 0.4rem;
+}
+#experienceModal .modal-body a {
+    margin-bottom: 0;
+    display: block;
+    margin-top: 0.5rem;
 }
 
 /* Media Queries */
