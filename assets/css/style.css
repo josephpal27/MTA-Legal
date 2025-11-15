@@ -1413,7 +1413,9 @@ footer{
     #experienceModal .modal-header span {
         font-size: calc(0.95rem + 0.5vw);
     }
-    #experienceModal .modal-body ul li {
+    #experienceModal .modal-body ul li,
+    #experienceModal .modal-body p,
+    #experienceModal .modal-body a {
         font-size: calc(0.43rem + 0.5vw);
         margin-bottom: 0.4rem;
     }
@@ -1435,7 +1437,9 @@ footer{
     #experienceModal .modal-header span {
         font-size: calc(0.85rem + 0.5vw);
     }
-    #experienceModal .modal-body ul li {
+    #experienceModal .modal-body ul li,
+    #experienceModal .modal-body p,
+    #experienceModal .modal-body a {
         font-size: calc(0.4rem + 0.5vw);
         margin-bottom: 0.4rem;
     }
@@ -1464,7 +1468,9 @@ footer{
     #experienceModal .modal-body ul{
         padding-left: 1rem;
     }
-    #experienceModal .modal-body ul li {
+    #experienceModal .modal-body ul li,
+    #experienceModal .modal-body p,
+    #experienceModal .modal-body a {
         font-size: calc(0.65rem + 0.5vw);
         margin-bottom: 0.4rem;
     }
