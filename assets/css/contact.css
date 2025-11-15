@@ -9,10 +9,6 @@
     font-size: calc(3.5rem + 0.5vw);
     margin-top: 4rem;
 }
-.banner .banner-content p{
-    width: 50%;
-    text-align: center;
-}
 .banner .banner-content .line{
     width: 90px;
     height: 8px;
@@ -51,12 +47,7 @@
     }
     .banner .banner-content h1{
         font-size: calc(2rem + 0.5vw);
-        margin-top: -4.5rem;
-    }
-    .banner .banner-content p{
-        margin-top: 3.3rem;
-        width: 100%;
-        font-size: calc(0.78rem + 0.5vw);
+        margin-top: -8rem;
     }
     .banner .banner-content .line{
         width: 55px;
