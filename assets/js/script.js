@@ -57,7 +57,35 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+// --------------------------------------------------------------------------------------------------
 
+// Functionality For Insights Modal
+document.addEventListener("DOMContentLoaded", function () {
+    const insightCards = document.querySelectorAll(".insights .event-card");
+
+    insightCards.forEach((card) => {
+        const btn = card.querySelector("a button"); 
+        const title = card.querySelector("span").innerText;
+        const insightsContent = card.querySelector(".insights-modal-content");
+
+        btn.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            // Set modal title
+            document.getElementById("expTitle").innerText = title;
+
+            // Set modal description (plain text / paragraphs)
+            const modalBody = document.getElementById("expDescription");
+            modalBody.innerHTML = insightsContent
+                ? insightsContent.innerHTML
+                : "<p>No details available.</p>";
+
+            // Show modal
+            const modal = new bootstrap.Modal(document.getElementById("experienceModal"));
+            modal.show();
+        });
+    });
+});
 // --------------------------------------------------------------------------------------------------
 
 // Functionality for OffCanvas Close on link click

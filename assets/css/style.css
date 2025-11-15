@@ -1056,6 +1056,9 @@ h1, h2, h3, h4, h5, h6 {
 .insights{
     padding: 0 7% 4rem 7%;
 }
+.insights-modal-content{
+    display: none;
+}
 /* Insights End */
 
 /* Footer Start */
@@ -1346,6 +1349,7 @@ footer{
 }
 #experienceModal .modal-header {
     border-bottom: none;
+    padding-right: 3rem;
 }
 #experienceModal .btn-close {
     background-color: #000 !important;
@@ -1371,6 +1375,7 @@ footer{
     font-size: calc(1rem + 0.5vw);
     color: #000;
     font-family: Elikora, sans-serif;
+    text-align: left;
 }
 #experienceModal .modal-body ul li {
     font-size: calc(0.45rem + 0.5vw);
