@@ -400,14 +400,20 @@ h1, h2, h3, h4, h5, h6 {
     flex-wrap: wrap;
 }
 .about-founder .founder-card{
-    width: 30%;
+    width: 24%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
 }
 .about-founder .founder-card img{
-    width: 90px;
-    height: 140px;
+    width: 80px;
+    height: 120px;
+    object-fit: contain;
+}
+.about-founder .founder-card:last-child img{
+    width: 45px;
+    height: 120px;
     object-fit: contain;
 }
 .about-founder .founder-card span{
@@ -417,13 +423,13 @@ h1, h2, h3, h4, h5, h6 {
     color: #000;
     text-align: center;
     line-height: normal;
+    transition: all 0.5s ease !important;
 }
-.about-founder .founder-card p{
-    font-family: Sharp-Grotesk-Book-20, sans-serif;
-    font-size: calc(0.59rem + 0.5vw);
-    color: #000;
-    text-align: center;
-    margin-top: 1rem;
+.about-founder .founder-card:hover span{
+    color: #e3b037;
+}
+.about-founder .founder-modal-content{
+    display: none;
 }
 
 /* Media Queries */
@@ -435,10 +441,6 @@ h1, h2, h3, h4, h5, h6 {
     .about-founder .founder-card span{
         font-size: calc(1.6rem + 0.5vw);
     }
-    .about-founder .founder-card p{
-        font-size: calc(0.55rem + 0.5vw);
-        margin-top: 0.9rem;
-    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
@@ -448,10 +450,6 @@ h1, h2, h3, h4, h5, h6 {
     }
     .about-founder .founder-card span{
         font-size: calc(1.4rem + 0.5vw);
-    }
-    .about-founder .founder-card p{
-        font-size: calc(0.5rem + 0.5vw);
-        margin-top: 0.8rem;
     }
 }
 
@@ -468,13 +466,6 @@ h1, h2, h3, h4, h5, h6 {
     }
     .about-founder .founder-card span{
         font-size: calc(1.3rem + 0.5vw);
-    }
-    .about-founder .founder-card span br{
-        display: none;
-    }
-    .about-founder .founder-card p{
-        font-size: calc(0.8rem + 0.5vw);
-        margin-top: 0.8rem;
     }
 }
 /* About Founder End */

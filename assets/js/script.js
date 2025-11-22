@@ -88,6 +88,33 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 // --------------------------------------------------------------------------------------------------
 
+// Functionality About Founder Modal
+document.addEventListener("DOMContentLoaded", function () {
+    const founderCards = document.querySelectorAll(".about-founder .founder-card");
+
+    founderCards.forEach((card) => {
+        const title = card.querySelector("span").innerText;
+        const founderContent = card.querySelector(".founder-modal-content");
+
+        card.addEventListener("click", function () {
+            // Set modal title
+            document.getElementById("expTitle").innerText = title;
+
+            // Set modal description
+            const modalBody = document.getElementById("expDescription");
+            modalBody.innerHTML = founderContent
+                ? founderContent.innerHTML
+                : "<p>No details available.</p>";
+
+            // Show modal
+            const modal = new bootstrap.Modal(document.getElementById("experienceModal"));
+            modal.show();
+        });
+    });
+});
+
+// --------------------------------------------------------------------------------------------------
+
 // Functionality for OffCanvas Close on link click
 document.addEventListener("DOMContentLoaded", function () {
 
