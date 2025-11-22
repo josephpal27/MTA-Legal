@@ -516,7 +516,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: calc(0.6rem + 0.5vw);
     color: #000;
     margin-top: 1.5rem;
-    width: 80%;
 }
 .about-us .about-content .about-text-box button{
     font-size: calc(0.8rem + 0.5vw);
@@ -618,10 +617,12 @@ h1, h2, h3, h4, h5, h6 {
     .about-us .about-content .about-text-box h4{
         font-size: calc(1.8rem + 0.5vw);
     }
+    .about-us .about-content .about-text-box h4 br{
+        display: none;
+    }
     .about-us .about-content .about-text-box p{
         font-size: calc(0.8rem + 0.5vw);
         margin-top: 0.5rem;
-        width: 100%;
     }
     .about-us .about-content .about-text-box button{
         font-size: calc(0.9rem + 0.5vw);
