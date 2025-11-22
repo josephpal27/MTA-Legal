@@ -85,6 +85,15 @@
     margin: 0;
     margin-top: 1rem;
 }
+.guiding-principles-content .policy-date{
+    margin-bottom: 3rem;
+}
+.guiding-principles-content .policy-date span{
+    font-size: calc(0.6rem + 0.5vw);
+    font-family: Sharp-Grotesk-Book-20, sans-serif;
+    color: #000;
+    font-weight: 500;
+}
 
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
@@ -101,6 +110,12 @@
     .guiding-content-box p{
         font-size: calc(0.55rem + 0.5vw);
         margin-top: 0.9rem;
+    }
+    .guiding-principles-content .policy-date{
+        margin-bottom: 2.8rem;
+    }
+    .guiding-principles-content .policy-date span{
+        font-size: calc(0.55rem + 0.5vw);
     }
 }
 
@@ -120,6 +135,12 @@
         font-size: calc(0.5rem + 0.5vw);
         margin-top: 0.7rem;
     }
+    .guiding-principles-content .policy-date{
+        margin-bottom: 2.7rem;
+    }
+    .guiding-principles-content .policy-date span{
+        font-size: calc(0.5rem + 0.5vw);
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -137,6 +158,12 @@
     .guiding-content-box p{
         font-size: calc(0.78rem + 0.5vw);
         margin-top: 0.7rem;
+    }
+    .guiding-principles-content .policy-date{
+        margin-bottom: 2rem;
+    }
+    .guiding-principles-content .policy-date span{
+        font-size: calc(0.78rem + 0.5vw);
     }
 }
 /* Guiding Principles Content End */
