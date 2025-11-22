@@ -59,3 +59,70 @@
     }
 }
 /* Banner End */
+
+/* Guiding Principles Content Start */
+.guiding-principles-content{
+    padding: 4rem 7%;
+}
+.guiding-content-box{
+    padding: 0.8rem 1rem;
+    border-left: 2px solid #f2c663;
+    margin-bottom: 2.5rem;
+}
+.guiding-content-box span{
+    display: block;
+    font-size: calc(1rem + 0.5vw);
+    font-family: Elikora, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #dea110;
+}
+.guiding-content-box p{
+    font-size: calc(0.6rem + 0.5vw);
+    font-family: Sharp-Grotesk-Book-20, sans-serif;
+    color: #000;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 1rem;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .guiding-principles-content{
+        padding: 3.5rem 7%;
+    }
+    .guiding-content-box{
+        padding: 0.7rem 1rem;
+        margin-bottom: 2.4rem;
+    }
+    .guiding-content-box span{
+        font-size: calc(0.95rem + 0.5vw);
+    }
+    .guiding-content-box p{
+        font-size: calc(0.55rem + 0.5vw);
+        margin-top: 0.9rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .guiding-principles-content{
+        padding: 3.5rem 7% 3rem 7%;
+    }
+    .guiding-content-box{
+        padding: 0.6rem 1rem;
+        margin-bottom: 2.3rem;
+        border-left: 1.7px solid #f2c663;
+    }
+    .guiding-content-box span{
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .guiding-content-box p{
+        font-size: calc(0.5rem + 0.5vw);
+        margin-top: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+/* Guiding Principles Content End */
